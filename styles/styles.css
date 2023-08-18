@@ -1,0 +1,224 @@
+/* estilos del footer pie de pagina */
+.footer{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(58, 56, 56);
+    color: white;
+    font-size: 18px;
+}
+
+/* para centrar texto */
+.centrar{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+/* para centrar texto */
+.centrar2{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+/* estilo color fondo */
+.colorfondo{
+    background: rgb(58, 56, 56);
+    
+}
+
+.colorfondo2{
+    background: #0282fa;
+    
+}
+
+
+/* Para colocar bordes a las cajas */
+
+.borde{
+    border: 2px solid black;
+}
+
+/* letra titulo */
+
+.letra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.letra2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* color letra link a */
+
+div a{
+    color: white;
+    outline: none;
+}
+
+.color2{
+    background: #0282fa;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* boton con luz */
+
+div a{
+    box-shadow: 0 0 5px rgb(81, 78, 240),
+    0 0 10px rgb(81, 78, 240);
+    display: inline-block;
+	padding: 10px 50px;
+	color: #ffffff;
+	margin: 10px;
+	border-radius: 6px;
+	text-decoration: none;
+	transition: all .3s ease-in;
+}
+
+div a:hover{
+    box-shadow: 0 0 1px rgb(81, 78, 240),
+    0 0 10px rgb(81, 78, 240), 0 0 10px rgb(81, 78, 240),
+    0 0 50px rgb(81, 78, 240), 0 0 50px rgb(81, 78, 240);
+}
+
+/*imagen movistar*/
+
+.imagenCircular{
+	width: 100px;
+	height: 100px;
+	background: url(../img/movistar2.jpg);
+	background-size: cover;
+	margin: 10px auto;
+	transition: all .3s ease;
+}
+
+.imagenCircular:hover{
+	box-shadow: 1px 1px #0282fa,
+				 2px 2px #0282fa,
+				 3px 3px #0282fa,
+				 4px 4px #0282fa,
+				 5px 5px #0282fa,
+				 6px 6px #0282fa,
+				 7px 7px #0282fa,
+				 8px 8px #0282fa,
+				 9px 9px #0282fa,
+				 10px 10px #0282fa,
+				 11px 11px #0282fa,
+				 11px 11px #0282fa,
+				 12px 12px #0282fa,
+				 13px 13px #0282fa,
+				 14px 14px #0282fa,
+				 15px 15px #0282fa,
+				 16px 16px #0282fa,
+				 17px 17px #0282fa,
+				 18px 18px #0282fa,
+				 20px 20px #0282fa,
+				 21px 21px #0282fa,
+				 22px 22px #0282fa,
+				 23px 23px #0282fa,
+				 24px 24px #0282fa,
+				 25px 25px #0282fa,
+				 26px 26px #0282fa,
+				 27px 27px #0282fa,
+				 28px 28px #0282fa,
+				 29px 29px #0282fa,
+				 30px 30px #0282fa,
+				 31px 31px #0282fa,
+				 32px 32px #0282fa,
+				 33px 33px #0282fa,
+				 34px 34px #0282fa,
+				 35px 35px #0282fa,
+				 36px 36px #0282fa;
+}
+
+/*Efecto hover con div*/
+
+.box{
+	width: 18%;
+	height: 18%;
+	background: #000;
+	margin:20px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.efecto{
+	width: 100%;
+	height: 0px;
+	background: rgba(0, 0, 0, .7);
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	color: #FFF;
+	font-size: 2em;
+	transition: all .3s ease;
+}
+
+.box:hover .efecto{
+	height: 100%;
+	padding-top: 20px;
+}
+
+.rotate{
+	width: 0px;
+	height: 0px;
+	background: rgba(0, 0, 0, .7);
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	color: #FFF;
+	font-size: 2em;
+	transition: all .3s ease;
+}
+
+
+.box:hover .rotate{
+	height: 100%;
+	width: 100%;
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.display{
+    display: flex;
+}
+
+
+
+
+
+
+/* titulo flotante */
+.bounce{
+    animation: bouncing
+                0.6s ease
+                infinite alternate;
+}
+
+@keyframes bouncing{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
